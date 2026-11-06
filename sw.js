@@ -1,6 +1,6 @@
 // Keep It Fit — service worker
 // Rețea întâi (vezi mereu ultima versiune de pe GitHub), cache doar când nu e internet.
-var CACHE = 'keepitfit-v1';
+var CACHE = 'keepitfit-v2';
 var CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', function (e) {
